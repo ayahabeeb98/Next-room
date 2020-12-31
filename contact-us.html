@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./images/fav-icon.png" rel="icon" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+          crossorigin="anonymous"/>
+    <title>Next Door - Contact Page</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body>
+
+<header class="mainHeader">
+    <nav class="mainNav">
+        <a href="./index.html" class="logo">
+            <img src="./images/logo.png" alt="logo">
+        </a>
+
+        <ul class="navItems">
+            <li class="navItem">
+                <a href="./index.html" class="navLink">Home</a>
+            </li>
+            <li class="navItem">
+                <a href="./about-us.html" class="navLink">About</a>
+            </li>
+            <li class="navItem">
+                <a href="#" class="navLink active">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main class="mainContent">
+    <h1 class="text-center mainTitle">
+        Contact Page
+    </h1>
+    <p class="text-center subTitle">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis dolor eligendi eum facere, illum ipsa magni nulla odio perspiciatis, quis quos soluta tempore, totam.
+    </p>
+
+    <form name="mainForm" class="mainForm">
+        <div class="formGroup">
+            <label>
+                <input type="text" name="name" placeholder=" Name" >
+            </label>
+            <p class="errorMsg nameError"></p>
+        </div>
+        <div class="formGroup">
+            <label>
+                <input type="email" name="email" placeholder=" Email">
+            </label>
+            <p class="errorMsg emailError"></p>
+
+        </div>
+        <div class="formGroup">
+            <label>
+                <textarea placeholder=" Massage" name="msg" rows="7"></textarea>
+            </label>
+            <p class="errorMsg msgError"></p>
+        </div>
+
+        <button type="submit" class="btn-send">
+            Send
+        </button>
+    </form>
+
+    <div class="msgSuccess">
+        <i class="far fa-check-circle"></i> &nbsp; Your massage sent successfully
+    </div>
+    <br>
+    <br>
+</main>
+
+<!--Footer-->
+<footer class="pageFooter ">
+    <p class="attribution">Copyright &copy; 2020 Next Door | coded by:
+        <a href="https://github.com/ayahabeeb98/">Aya Habeeb</a>
+    </p>
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
